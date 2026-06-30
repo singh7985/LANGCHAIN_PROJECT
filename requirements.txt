@@ -8,3 +8,6 @@ ipykernel
 beautifulsoup4
 faiss-cpu
 streamlit
+langchain_groq
+fastapi
+uvicorn

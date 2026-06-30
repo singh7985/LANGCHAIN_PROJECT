@@ -23,10 +23,10 @@ prompt=ChatPromptTemplate.from_messages(
 
 ##Streamlit Framework
 st.title("Langchain Demo With LLAMA3")
-input_text=st.text_input("What question ypu have in mind?")
+input_text=st.text_input("What question you have in mind?")
 
 
-##Ollama Llana2 model
+##Ollama Llama3 model
 llm=Ollama(model="llama3")
 output_parser=StrOutputParser()
 chain=prompt | llm | output_parser
